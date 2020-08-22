@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "534491849274",
+    "firebase_url": "https://namaste-social-network-app.firebaseio.com",
+    "project_id": "namaste-social-network-app",
+    "storage_bucket": "namaste-social-network-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534491849274:android:edc0922ca24ea115df8b03",
+        "android_client_info": {
+          "package_name": "com.example.namastesoicalnetwork"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534491849274-cbrm88t8touou77c0v06okf4c547mc8t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.namastesoicalnetwork",
+            "certificate_hash": "7046af7b73bcc039b82c33881c08cfd4fae274a4"
+          }
+        },
+        {
+          "client_id": "534491849274-8j5vmptsvda6s07gdcgf9f7r9pt2crii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD9DHpBrqD7n30FMq7HNV2EziLMpL59MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534491849274-8j5vmptsvda6s07gdcgf9f7r9pt2crii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

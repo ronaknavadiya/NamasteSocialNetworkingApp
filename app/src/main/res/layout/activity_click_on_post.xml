@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClickOnPostActivity"
+    android:background="@drawable/header">
+
+    <ImageView
+        android:id="@+id/click_on_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/select_image"
+        android:scaleType="centerCrop"
+        android:layout_margin="10dp"
+        android:tooltipText="Post Description"
+        android:background="@drawable/post_border"
+        />
+
+    <TextView
+        android:id="@+id/click_on_post_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Description"
+        android:layout_below="@id/click_on_post_image"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_margin="5dp"
+        android:paddingStart="5dp"
+        android:padding="5dp"
+        android:background="@drawable/inputs"
+        />
+
+    <Button
+        android:id="@+id/click_on_post_edit_post_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Post"
+        android:layout_below="@id/click_on_post_des"
+        android:background="@drawable/button_design"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/click_on_post_delete_post_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Post"
+        android:layout_below="@id/click_on_post_edit_post_btn"
+        android:background="@drawable/button_design"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

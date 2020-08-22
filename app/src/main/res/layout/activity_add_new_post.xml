@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewPostActivity"
+    android:background="@drawable/login">
+
+    <include
+        android:id="@+id/update_post_page_appbar"
+        layout="@layout/app_bar_layout"/>
+
+    <ImageButton
+        android:id="@+id/select_new_post"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:src="@drawable/select_image"
+        android:scaleType="fitCenter"
+        android:layout_below="@id/update_post_page_appbar"
+        android:layout_marginTop="40dp"
+        android:layout_margin="30dp"
+        />
+
+    <EditText
+        android:id="@+id/new_post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_below="@id/select_new_post"
+        android:hint="Post Description"
+        android:layout_margin="15dp"
+        android:background="@drawable/inputs"
+        android:paddingStart="5dp"
+        android:textColorHint="@color/design_default_color_primary_dark"
+        />
+
+    <Button
+        android:id="@+id/update_post_btn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/new_post_description"
+        android:background="@drawable/button_design"
+        android:layout_centerHorizontal="true"
+        android:text="Post"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:padding="10dp"
+        />
+
+
+</RelativeLayout>
